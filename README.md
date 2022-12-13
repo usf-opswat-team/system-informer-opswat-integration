@@ -1,8 +1,47 @@
-[![Build status](https://img.shields.io/github/workflow/status/winsiderss/systeminformer/continuous-integration?style=for-the-badge)](https://github.com/winsiderss/systeminformer/actions/workflows/msbuild.yml)
-[![Build contributors](https://img.shields.io/github/contributors/winsiderss/systeminformer.svg?style=for-the-badge&color=blue)](https://github.com/winsiderss/systeminformer/graphs/contributors)
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=blue)](https://opensource.org/licenses/MIT)
-[![Github stats](https://img.shields.io/github/downloads/winsiderss/systeminformer/total.svg?style=for-the-badge&color=red)](https://somsubhra.github.io/github-release-stats/?username=winsiderss&repository=systeminformer)
-[![SourceForge stats](https://img.shields.io/sourceforge/dt/systeminformer.svg?style=for-the-badge&color=red)](https://sourceforge.net/projects/systeminformer/files/stats/timeline?dates=2008-10-01%20to%202020-09-01&period=monthly)
+## Integration of MetaDefender Cloud into System Informer
+A capstone Computer Science and Engineering project by students at the University of South Florida, Fall 2022.
+This integration allows you to use MetaDefender Cloud features such as single process scanning, continuous scanning off all processes, and the ability to see threat reports for running process displayed via System Informer.
+
+## Contributors
+- Jaylen Brown
+    - [Github](https://github.com/JMarshalB)
+    - [LinkedIn](https://www.linkedin.com/in/jaylen-brown-6a70511a3/) 
+- Christopher Greenland
+    - [Github](https://github.com/cgreenland)
+- Eric Kemmer
+    - [GitHub](https://github.com/Airick73)
+    - [LinkedIn](https://www.linkedin.com/in/erickemmer/)
+- Chuong Le
+    - [GitHub](https://github.com/chuongle1994)
+    - [LinkedIn](https://www.linkedin.com/in/chuong-le-aab0a217b/)
+- Sebastian Rivera
+    - [GitHub](https://github.com/01sebar)
+    - [LinkedIn](https://www.linkedin.com/in/sebastianriv/)
+
+https://metadefender.opswat.com/
+
+## Setting up MetaDefender Cloud
+    1. Register for an API key at https://metadefender.opswat.com/
+    1. Right click a process 
+    2. Select send to -> MetaDefender
+    3. You will be promoted to input your API key
+    4. Input your API key and select "OK" 
+    5. System Informer can now perform MetaDefender Cloud features
+
+## MetaDefender Cloud features
+    1. Single process scanning
+        a. Right click a process
+        b. Select send to -> MetaDefender
+    2. Threat report 
+        a. Right click a process
+        b. Select send to -> View MetaDefender report 
+    3. All process scanning
+        a. Navigate to the Tools menu option 
+        b. Select online checks -> Enable MetaDefender Cloud Scanning
+        c. This will prompt you to restart System Informer
+        d. Upon restart MetaDefender Cloud will scan the process 
+           displayed in batches
 
 <img align="left" src="SystemInformer/resources/systeminformer.png" width="128" height="128"> 
 
